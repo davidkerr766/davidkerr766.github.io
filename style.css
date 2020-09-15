@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 4rem;
+  background-color: black;
+}
+
+header span {
+  color: white;
+}
+
+#container {
+    background-color: pink;
+    height: calc(100vh - 4rem);
+}
