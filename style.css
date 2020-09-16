@@ -4,15 +4,27 @@
 }
 
 header {
-  height: 4rem;
-  background-color: black;
+  height: 5rem;
+  background-color: rgba(0, 0, 0, 0.892);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-header span {
+header i {
   color: white;
+  padding: 0 1.5rem;
 }
 
-#container {
-    background-color: pink;
-    height: calc(100vh - 4rem);
+header button {
+    padding: 0.8rem;
+}
+
+#resume {
+    padding: 0 2rem;
+}
+
+main {
+    background-color: rgba(135, 206, 250, 0.721);
+    height: calc(100vh - 5rem);
 }
