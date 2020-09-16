@@ -5,7 +5,7 @@
 
 header {
   height: 5rem;
-  background-color: rgba(0, 0, 0, 0.892);
+  background-color: rgba(0, 0, 0, 0.81);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -25,6 +25,19 @@ header button {
 }
 
 main {
-    background-color: rgba(135, 206, 250, 0.721);
-    height: calc(100vh - 5rem);
+    background-color: rgba(135, 206, 250, 0.146);
+    min-height: calc(100vh - 5rem);
+}
+
+#container {
+    max-width: 1280px;
+    min-height: calc(100vh - 5rem);
+    background-color: rgba(135, 206, 250, 0.365);
+    margin: auto;
+}
+
+.card {
+    width: 700px;
+    margin: auto;
+    padding-top: 1rem;
 }
