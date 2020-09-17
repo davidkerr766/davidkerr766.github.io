@@ -44,7 +44,7 @@ main {
   height: 400;
 }
 
-.card img {
+.animated {
   border-radius: 0.5em 0.5em 0 0;
   display: block;
   box-shadow: 4px 4px 5px -2px rgba(0, 0, 0, 0.35);
@@ -56,4 +56,8 @@ main {
     box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.35);
     padding: 0.5rem 1rem;
     color: rgb(29, 29, 29);
+}
+
+.content img {
+    height: 1rem;
 }
