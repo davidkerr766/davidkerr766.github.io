@@ -18,6 +18,7 @@ header i {
 
 header button {
   padding: 0.8rem;
+  font-weight: 500;
 }
 
 #resume {
