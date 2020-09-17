@@ -16,10 +16,12 @@ a:hover, header i:hover {
 
 header {
   height: 5rem;
-  background-color: rgba(0, 0, 0, 0.81);
+  background-color: rgb(43, 43, 43);
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: sticky;
+  top: 0;
 }
 
 header i {
