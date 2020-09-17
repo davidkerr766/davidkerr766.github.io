@@ -32,6 +32,18 @@ const smoothScroll = element => {
     window.requestAnimationFrame(stepFunc);
 }
 
+var cursor = true;
+        var speed = 500;
+        setInterval(() => {
+          if(cursor) {
+            document.getElementById('cursor').style.opacity = 0;
+            cursor = false;
+          }else {
+            document.getElementById('cursor').style.opacity = 1;
+            cursor = true;
+          }
+        }, speed);
+
 
 const portfolioButton = document.querySelector('#click')
 portfolioButton.addEventListener("click", () => smoothScroll('header'))
